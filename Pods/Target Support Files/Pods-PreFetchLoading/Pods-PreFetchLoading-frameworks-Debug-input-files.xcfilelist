@@ -1,2 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-PreFetchLoading/Pods-PreFetchLoading-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework
+${BUILT_PRODUCTS_DIR}/SainiUtils/SainiUtils.framework

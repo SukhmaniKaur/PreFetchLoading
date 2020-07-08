@@ -7,4 +7,6 @@ target 'PreFetchLoading' do
 
   # Pods for PreFetchLoading
   pod 'Alamofire','4.9.1'
+  pod 'SainiUtils'
+  pod 'NVActivityIndicatorView'
 end
