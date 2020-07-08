@@ -10,5 +10,5 @@ import Foundation
 
 //MARK: - API
 struct API {
-    let link = "http://www.recipepuppy.com/api/?i=onions,garlic&q=omelet&p=1"
+    static let link = "http://www.recipepuppy.com/api/?i=onions,garlic&q=omelet&p=1"
 }

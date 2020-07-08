@@ -22,7 +22,7 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GQQ-Xo-yIx">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="GQQ-Xo-yIx">
                         <rect key="frame" x="20" y="101" width="280" height="131"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nvbjrvvhjfnvhjfrnvhjfrbvhjbfrvhjbrvhbfrvhbfrvhbhbfr svk,kicjebvliusnvlbv fbvluvw;w" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5T-l4-UIA">
@@ -54,4 +54,7 @@
             <point key="canvasLocation" x="137.68115942028987" y="170.75892857142856"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="image" width="125" height="125"/>
+    </resources>
 </document>
