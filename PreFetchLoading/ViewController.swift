@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SainiUtils
 
 class ViewController: UIViewController {
     
@@ -31,7 +32,7 @@ class ViewController: UIViewController {
 extension ViewController: UITableViewDataSource, UITableViewDelegate {
     // numberOfRowsInSection
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        10
+        resultArray.count
     }
     
     // heightForRowAt
@@ -44,6 +45,9 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "CustomCell", for: indexPath) as? CustomCell else {
             return UITableViewCell()
         }
+        cell.titleLbl.text = resultArray[indexPath.row].title
+        cell.indegrientsLbl.text = resultArray[indexPath.row].ingredients
+        cell.thumbnail.downloadCachedImage(placeholder: "image", urlString: resultArray[indexPath.row].thumbnail)
         return cell
     }
 }
@@ -55,6 +59,7 @@ extension ViewController {
             if response != nil{                             //if response is not empty
                 do {
                     let success = try JSONDecoder().decode(ResultModel.self, from: response!) // decode the response into success model
+                    log.success("Success")/
                     self.resultArray = success.results
                     DispatchQueue.main.async {
                         self.tableView.reloadData()
