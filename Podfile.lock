@@ -4,23 +4,29 @@ PODS:
     - NVActivityIndicatorView/Presenter (= 4.8.0)
   - NVActivityIndicatorView/Presenter (4.8.0)
   - SainiUtils (0.2.1)
+  - SDWebImage (4.4.8):
+    - SDWebImage/Core (= 4.4.8)
+  - SDWebImage/Core (4.4.8)
 
 DEPENDENCIES:
   - Alamofire (= 4.9.1)
   - NVActivityIndicatorView
   - SainiUtils
+  - SDWebImage (~> 4.0)
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - NVActivityIndicatorView
     - SainiUtils
+    - SDWebImage
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
   SainiUtils: 0fe398d1030ebbd6edf7f51e5e3ebfd19a48ef27
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
 
-PODFILE CHECKSUM: 8d35fdd5647fcf2126519bb10607d67327005645
+PODFILE CHECKSUM: 886558df2d0ad4ad1ae8f8e6778bcaca3265d115
 
 COCOAPODS: 1.8.4

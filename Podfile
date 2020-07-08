@@ -9,4 +9,5 @@ target 'PreFetchLoading' do
   pod 'Alamofire','4.9.1'
   pod 'SainiUtils'
   pod 'NVActivityIndicatorView'
+  pod 'SDWebImage', '~> 4.0'
 end
